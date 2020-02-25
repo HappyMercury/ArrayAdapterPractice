@@ -48,13 +48,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_nav_bar);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                item.setEnabled(true);
-                return true;
-            }
-        });
     }
 }
